@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Figtree-fallback";
+  src: local("Arial");
+  ascent-override: 93.6%;
+  descent-override: 24.63%;
+  line-gap-override: 0%;
+  size-adjust: 101.49%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", "Figtree-fallback";
+}
