@@ -43,3 +43,65 @@
   display: grid;
   place-items: center;
 }
+
+.card {
+  max-width: 24rem;
+  padding: 1.5rem;
+  background: var(--clr-white);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: 8px 8px 0px 0px var(--clr-black),
+    inset 0px 0px 0px 1px var(--clr-black);
+  font-weight: 500;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  background-color: var(--clr-yellow);
+  font-weight: 900;
+}
+
+.card__image {
+  border-radius: 0.625rem;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card__body p {
+  color: var(--clr-grey);
+}
+
+.card__avatar__container {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-weight: 900;
+}
+
+.body-s {
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+
+.body-m {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.heading {
+  font-size: 1.5rem;
+  line-height: 150%;
+  font-weight: 900;
+}
