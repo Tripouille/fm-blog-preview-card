@@ -29,3 +29,17 @@
   box-sizing: border-box;
   font-family: "Figtree", "Figtree-fallback";
 }
+
+:root {
+  --clr-yellow: hsl(47, 88%, 63%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-grey: hsl(0, 0%, 50%);
+  --clr-black: hsl(0, 0%, 7%);
+}
+
+.background {
+  background: var(--clr-yellow);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
