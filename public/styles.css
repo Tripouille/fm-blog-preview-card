@@ -79,6 +79,11 @@
   gap: 0.75rem;
 }
 
+.card__body h1:hover {
+  color: var(--clr-yellow);
+  cursor: pointer;
+}
+
 .card__body p {
   color: var(--clr-grey);
 }
