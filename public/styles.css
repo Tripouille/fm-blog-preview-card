@@ -45,7 +45,7 @@
 }
 
 .card {
-  max-width: 24rem;
+  width: min(calc(100% - 3rem), 24rem);
   padding: 1.5rem;
   background: var(--clr-white);
   border-radius: 1.25rem;
@@ -71,6 +71,8 @@
 
 .card__image {
   border-radius: 0.625rem;
+  object-fit: cover;
+  width: 100%;
 }
 
 .card__body {
@@ -96,17 +98,35 @@
 }
 
 .body-s {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   line-height: 150%;
 }
 
 .body-m {
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 150%;
 }
 
 .heading {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 150%;
   font-weight: 900;
+}
+
+@media (min-width: 376px) {
+  .body-s {
+    font-size: 0.875rem;
+    line-height: 150%;
+  }
+
+  .body-m {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-weight: 900;
+  }
 }
